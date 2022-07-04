@@ -1,3 +1,11 @@
+## Project created by 
+https://github.com/daniel-was-taken
+
+https://github.com/PremTatkari
+
+https://github.com/divyesh0406
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
