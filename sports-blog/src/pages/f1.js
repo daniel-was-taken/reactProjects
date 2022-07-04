@@ -1,15 +1,17 @@
 import React from 'react';
 import Authentication from '../Authentication.css';
+import image from "../images/bgwhite.jpg";
+
 
 const F1 = () => {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${image})` }}>
       <div
         style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '80vh',
+          height: '70vh',
           backgroundImage: `url('https://phantom-marca.unidadeditorial.es/bb8aaf5db1f9a10e92599835c110ceb2/crop/0x0/2046x1151/resize/1320/f/jpg/assets/multimedia/imagenes/2022/05/08/16520453470261.jpg')`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -22,6 +24,9 @@ const F1 = () => {
           F1</h1>
       </div>
       <div style={{
+        backgroundImage: `url('https://wallpapercave.com/wp/wp7054738.jpg')`,
+        backgroundBlendMode: 'luminosity',
+        color: 'white',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -31,28 +36,42 @@ const F1 = () => {
         marginLeft: '300px',
         marginRight: '300px',
         marginTop: '50px',
+        borderStyle: 'solid',
+        borderRadius: '20px',
+        borderWidth: '1px',
+        padding: '20px',
 
-      }}><h2 className='sports'>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is
-        to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and
-        click the button. Your chosen number of paragraphs will instantly appear.While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be
-        useful. A few examples of how some people use this generator are listed in the following paragraphs. Creative Writing Generating random paragraphs can be an excellent way for
-        writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the
-        writer to use creativity to complete one of three common writing challenges. The writer can use the paragraph as the first one of a short story and build upon it. A second
-        option is to use the random paragraph somewhere in a short story they create. The third option is to have the random paragraph be the ending paragraph in a short story. No
-        matter which of these challenges is undertaken, the writer is forced to use creativity to incorporate the paragraph into their writing. Tackle Writers' Block A random paragraph
-        can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete.
-        By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. Beginning
-        Writing Routine Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite
-        it while still keeping the original meaning. The purpose here is to just get the writing started so that when the writer goes onto their day's writing projects, words are a
-        lready flowing from their fingers. Writing Challenge Another writing challenge can be to take the individual sentences in the random paragraph and incorporate a single sentence
-        from that into a new paragraph to create a short story. Unlike the random sentence generator, the sentences from the random paragraph will have some connection to one another
-        so it will be a bit different. You also won't know exactly how many sentences will appear in the random paragraph. Programmers It's not only writers who can benefit from this
-        free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your
-        programming and that the tool being created is working well. Above are a few examples of how the random paragraph generator can be beneficial. The best way to see if this
-        random paragraph picker will be useful for your intended purposes is to give it a try. Generate a number of paragraphs to see if they are beneficial to your current project.If you
-        do find this paragraph tool useful, please do us a favor and let us know how you're using it. It's greatly beneficial for us to know the different ways this tool is being used
-        so we can improve it with updates. This is especially true since there are times when the generators we create get used in completely unanticipated ways from when we initially
-        created them. If you have the time, please send us a quick note on what you'd like to see changed or added to make it better in the future.
+      }}><h2 className='sports'>Formula One championship leader Max Verstappen has unfinished business to take care of at this weekend's Azerbaijan Grand Prix while also looking to reassert himself as Red Bull's lead driver.
+        The Dutchman was heading for victory at the Baku street track last year when a tyre exploded and pitched him into the barrier on the high speed run along the city's Caspian Sea waterfront.
+
+        Mexican team mate Sergio Perez took the win instead and returns triumphant and as a potential title contender after his victory two weeks ago in Monaco.
+
+        Verstappen will be determined to stop him becoming the first driver to win twice in Baku.
+
+        "I'm looking forward to returning to Baku, we have some unfinished business there after last year," said the 24-year-old who has a nine point lead over Ferrari rival Charles Leclerc with Perez a further six behind.
+
+        "Last year was unlucky, simple as that," he said.
+
+        "It was a very painful one, but that happens. That's racing... it's different cars, different tyres (this time) and we go again."
+        Perez, who was also on the podium in Baku twice while racing for Force India, is in the form of his life and with a new two-year contract with Red Bull freshly signed.
+
+        The 6km long Baku street track, a mix of flat-out blasts and tight corners lined by unforgiving barriers, is famed for unpredictable races and has produced five different winners in five years on the calendar.
+
+        Leclerc is familiar with the track's pitfalls, having crashed while on course for pole position in 2019.
+
+        The Monegasque and Ferrari, chasing a first title since 2008, will want the weekend to go perfectly after potential wins slipped through their fingers in Monaco and Spain.
+
+        Seven times world champion Lewis Hamilton will also be keen to make amends after failing to capitalise on Verstappen's retirement last year when he went from second to 15th in Baku, having accidentally triggered a 'brake magic' function on his steering wheel.
+
+        His Mercedes team are the most successful in Baku, with three wins. A fourth looks a distant prospect unless the track throws up another surprise.
+
+        "Baku often produces some fun and crazy track action, and the layout generates good racing opportunities," said Mercedes team boss Toto Wolff.
+
+        "So, let's see if it lives up to its reputation this weekend."
+
+        The possibility of podium appearance by a midfield team is always there. Apart from Perez's Force India exploits, Sebastian Vettel was second last year for Aston Martin with Pierre Gasly third for AlphaTauri.
+
+        Lance Stroll's first top-three result came in Baku with Williams in 2017
         </h2>
       </div>
     </div>

@@ -1,7 +1,6 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js";
   // TODO: Add SDKs for Firebase products that you want to use
@@ -9,6 +8,8 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
   const firebaseConfig = {
     apiKey: "AIzaSyCNiAJoHQcl5B7V_koMpVqrCXWMcqfqMz8",
     authDomain: "sportsblog-af084.firebaseapp.com",

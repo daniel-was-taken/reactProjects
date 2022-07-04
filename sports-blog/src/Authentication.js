@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Login from "./Login";
 import fire from './fire';
+import 'firebase/compat/auth';
 import App from "./App";
 
 const Authentication = () => {
@@ -24,7 +25,7 @@ const Authentication = () => {
         clearErrors();
         fire
             .auth()
-            .signInWithEmailAndPassword(email, password)
+            .signInWithEmailAndPassword(email, password)    
             .catch(err => {
                 switch (err.code) {
                     case "auth/invalid email":
@@ -57,7 +58,6 @@ const Authentication = () => {
             });
     };
 
-
     const handleLogout = () => {
         fire.auth().signOut();
     }
@@ -66,12 +66,13 @@ const Authentication = () => {
         fire.auth().onAuthStateChanged((user) => {
             if (user) {
                 clearInputs();
-                setUser(user);
+                setUser(user);           
             } else {
                 setUser("");
             }
         });
     };
+
 
     useEffect(() => {
         authListener();
@@ -80,19 +81,22 @@ const Authentication = () => {
     return (
         <div className="App">
             {user ? (
-                <App handleLogout={handleLogout}/>
-            ):(
-                <Login email={email}
-                setEmail={setEmail}
-                password={password}
-                setPassword={setPassword}
-                handleLogin={handleLogin}
-                handleSignup={handleSignup}
-                hasAccount={hasAccount}
-                setHasAccount={setHasAccount}
-                emailError= {emailError}
-                passwordError= {passwordError} />
-            )}; 
+                <App handleLogout={handleLogout}
+                />
+
+            ) : (
+                <Login
+                    email={email}
+                    setEmail={setEmail}
+                    password={password}
+                    setPassword={setPassword}
+                    handleLogin={handleLogin}
+                    handleSignup={handleSignup}
+                    hasAccount={hasAccount}
+                    setHasAccount={setHasAccount}
+                    emailError={emailError}
+                    passwordError={passwordError} />
+            )};
         </div>
     );
 };

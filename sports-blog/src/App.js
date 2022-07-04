@@ -8,9 +8,11 @@ import Basketball from './pages/basketball';
 import Tennis from './pages/tennis';
 import Cricket from './pages/cricket';
 import F1 from './pages/f1';
+import Authentication from './Authentication';
 import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './Components/Navbar/NavbarElements';
 
 const App = ({ handleLogout }) => {
+
   return (
     <>
       <div>

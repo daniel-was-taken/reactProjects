@@ -12,3 +12,7 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/static/Montserrat-Light.ttf) format('truetype');
+}
